@@ -83,13 +83,13 @@ RECURSIVE_SEARCH = True
 
 - Saves this new, comprehensive table to ```OUT_MATCHED_CSV```.
   ### Keysettings
-  ```
+```
   # OUTPUT (will NOT overwrite inputs)
 OUT_MATCHED_CSV = BASE_DIR / f"{SITE}_l2_summary_2.csv"
 
-# Optional AERONET Rrs columns to carry through if present
-AOC_RRS_COLS = [
-    "aoc_rrs412","aoc_rrs443","aoc_rrs490","aoc_rrs510",
-    "aoc_rrs560","aoc_rrs665","aoc_rrs681"
+  # Optional AERONET Rrs columns to carry through if present
+  AOC_RRS_COLS = [
+      "aoc_rrs412","aoc_rrs443","aoc_rrs490","aoc_rrs510",
+      "aoc_rrs560","aoc_rrs665","aoc_rrs681"
 ]
-```
+  ```
